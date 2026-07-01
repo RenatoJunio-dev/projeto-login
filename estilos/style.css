@@ -1,1 +1,53 @@
 @charset "UTF-8";
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+
+    background-color: #824848;
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+     
+   
+
+
+     }
+
+
+
+
+
+section#login {
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(44, 43, 43, 0.527);
+
+
+}
+section#login > div#imagem {
+    background: #824848 url(../imagens/teladefundo.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+}
+section#login > div#formulario {
+    padding: 10px;
+    display: block;
+}
